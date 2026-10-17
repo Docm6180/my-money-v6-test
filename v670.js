@@ -1,6 +1,6 @@
 /* MyMoney V6.7.0 — read-only health checks and update visibility. */
 (()=>{'use strict';
-const VERSION='6.7.0', LEDGER='mymoney-local-v1';
+const VERSION='7.0.0', LEDGER='mymoney-local-v1';
 const copy={
 'en':['System Health & Version','Run read-only check','Download diagnostic summary','App version','Storage availability','Data format','Data relationships','Offline support','Update available. Reload to use the latest version.','Reload app','No data is changed by this check. Keep a separate JSON backup.','OK','Needs attention','Storage is not accessible','Invalid ledger format','No ledger saved yet','No obvious broken references detected','Potential unmatched debt repayment references','The application is not running under HTTPS; offline features may be unavailable.','Last checked'],
 'zh-CN':['系统检查与版本','运行只读检查','下载检查摘要','应用版本','本机储存','数据格式','数据关联','离线支持','发现新版本，重新加载以更新。','重新加载','检查不会修改数据。请另外保存 JSON 备份。','正常','需要注意','无法访问本机储存','账本格式不正确','尚未保存账本','未发现明显的关联异常','部分还款找不到对应负债','当前未使用 HTTPS，离线功能可能不可用。','检查时间'],
