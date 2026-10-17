@@ -37,3 +37,14 @@ html[data-theme="dark"] .donut-inner,html[data-theme="dark"] .donut-inner *{colo
 html[data-theme="dark"] .btn.secondary{background:#273449!important;color:#dce7ff!important;border:1px solid #46566f!important;}
 html[data-theme="dark"] .btn.danger{background:#48272d!important;color:#ffd8dc!important;}
 @media(max-width:599px){html[data-theme="dark"] .tabs button:not(.active){background:transparent!important;border:0!important;color:#dce7ff!important;}html[data-theme="dark"] .tabs button.active{background:#334969!important;color:#c9d9ff!important;border:0!important;}}
+
+/* V6.0.3 mobile-first layout. Financial DOM ids and data schema unchanged. */
+.v603-welcome{background:linear-gradient(120deg,var(--green),var(--blue));border-radius:18px;color:white;padding:20px;margin-bottom:12px;display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+.v603-welcome small{font-size:11px;letter-spacing:.1em;opacity:.9}.v603-welcome h2{font-size:20px;margin:9px 0 5px;line-height:1.4}.v603-welcome p{font-size:12px;margin:0;opacity:.9}.v603-eye{border:1px solid #ffffff80;color:white;background:#ffffff25;border-radius:10px;padding:9px;cursor:pointer;white-space:nowrap;font-size:12px}
+.v603-quick{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-bottom:14px}.v603-quick button{padding:13px 5px;border:1px solid var(--line);border-radius:12px;background:var(--card);color:var(--text);font-size:13px;font-weight:700;cursor:pointer}
+.v603-homecards .metric:first-child{border-top:3px solid var(--green)}.v603-homecards .metric:last-child{border-top:3px solid var(--blue)}
+#home.v603-private .metric strong,#home.v603-private #monthSummary,#home.v603-private #recentList .amount,#home.v603-private #homeAccounts .amount,#home.v603-private #homeDebts .amount{filter:blur(9px);user-select:none}
+.v603-settings-inline{max-width:none;padding:0;margin:0 0 14px}.tabs button[hidden]{display:none!important}
+@media(min-width:760px){.wrap,.v60-settings{max-width:960px}.v603-homecards{grid-template-columns:repeat(4,minmax(0,1fr))}.v603-homecards .metric strong{font-size:clamp(16px,1.9vw,23px)}.v603-quick{max-width:530px}}
+@media(max-width:599px){.v603-welcome{padding:17px 14px}.v603-welcome h2{font-size:17px}.v603-eye{font-size:11px;padding:8px 5px}.v603-quick button{font-size:12px}.v603-homecards .metric strong{font-size:clamp(15px,4vw,21px);overflow-wrap:anywhere}.tabs button{font-size:12px}.wrap{padding-bottom:110px}}
+html[data-theme="dark"] .v603-quick button{background:#273449;color:#f4f6fc;border-color:#46566f}
